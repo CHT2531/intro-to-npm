@@ -103,7 +103,7 @@ Finally, change the ```<script>``` element in the HTML page to link to *bundle.j
 ```
 Finally, test this works.
 
-### Learning more
+## Learning more
 * https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/
 * https://www.agiliq.com/blog/2019/01/using-npm-to-manage-frontend-libraries/
 * https://css-tricks.com/why-npm-scripts/
