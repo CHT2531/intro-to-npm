@@ -93,7 +93,7 @@ npm install --global rollup
 Next we need to tell rollup that we want to create a single JavaScript file for our entire app. Enter the following into the Command Prompt
 
 ```
- rollup ./js/loading.js --file ./js/bundle.js --format iife
+ rollup ./js/app.js --file ./js/bundle.js --format iife
 ```
 You should find this generates a *bundle.js* file that contains both the Luxon library code and the code we have written.
 
