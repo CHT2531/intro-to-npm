@@ -81,9 +81,9 @@ You should get some feedback that Luxon is being downloaded and installed.
 ## Using a module bundler
 There are still two problems with this approach:
 1. Only modern browser understand ES2015 modules.
-2. By default when we add a library to a project the entire library is imported. It would be nice if we just imported the bits of a library that we actually use. it's possible to do this using a process known as tree shaking.
+2. By default when we add a library to a project the entire library is imported. It would be nice if we just imported the bits of a library that we actually use. It's possible to do this using a process known as tree shaking.
 
-A module bundler is a tool that can solve these problems for us. Essentially a module bundler looks through all the JavaScript code in our application, including the libraries. It can perform tree shaking, and generate a single JavaScript file that will work across all browsers.
+A module bundler is a tool that can solve these problems for us. Essentially a module bundler looks through all the JavaScript code in our application, including the libraries and it generates a single JavaScript file that will work across all browsers.
 
 We will use a module bundler known as rollup.js (https://rollupjs.org/guide/en/). Back in the command prompt, enter the following:-
 
