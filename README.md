@@ -75,7 +75,7 @@ You should get some feedback that Luxon is being downloaded and installed.
   * We no longer need to link to the CDN, so you can comment out the first ```<script>``` element in the *index.html*.
   * Save the file and make sure this still works.
 
-* We can install any library in the same way. You just need to find the library on the NPM website (https://www.npmjs.com/).
+* We can install other libraries in the same way. The NPM website (https://www.npmjs.com/) maintains a list of libraries (packages).
 
 
 ## Using a module bundler
