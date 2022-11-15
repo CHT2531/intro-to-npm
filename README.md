@@ -26,12 +26,13 @@ To start with we need to declare this is a Node.js project.
 ```
 dir
 ```
-And you should see *index.html* and the *js* folder listed. i.e. something like:
+And you should see *index.html* and the *sass* and *js* folders listed. i.e. something like:
 
 ```
     Directory: K:CHT2531\nodejs
     Name
     ----
+    sass
     js
     index.html
     README.md
