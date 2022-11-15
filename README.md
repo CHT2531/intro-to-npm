@@ -58,7 +58,7 @@ You should get some feedback that Luxon is being downloaded and installed.
 
 ```
   "dependencies": {
-    "luxon": "^2.1.1"
+    "luxon": "^3.1.1"
   },
 ```
 * You should also find that you have a new *node_modules* folder in your project and inside here there should be a luxon folder.  
