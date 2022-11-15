@@ -103,13 +103,13 @@ Finally, change the ```<script>``` element in the HTML page to link to *bundle.j
 ```
 Finally, test this works.
 
-## installing a development tool e.g. Sass
-It is also common to install development tools e.g. a Sass compiler into your Node.js projects. 
+## Installing a development tool e.g. Sass
+In addition to simply keeping track of the libraries we are using, it is also common to use NPM to install development tools e.g. a Sass compiler into your Node.js projects. 
 
 ```
 npm install sass --save-dev
 ```
-Have a look in *package.json*. See how sass has been added under devDependencies (development dependencies). A dev dependency is a package that is needed during development, but for for the final publiched website. We use the flag ```--save-dev``` to indicate this is a dev dependency. 
+Have a look in *package.json*. See how sass has been added under *devDependencies* (development dependencies). A development dependency is a package that is needed during development, but for for the final publiched website. We use the flag ```--save-dev``` to indicate this is a dev dependency. 
 
 ## Creating an NPM command
 Next, we'll set up a command in the *package.json* file that will compile our Sass code for us. Open *package.json* and change the scripts part of the file to the following:
@@ -119,17 +119,14 @@ Next, we'll set up a command in the *package.json* file that will compile our Sa
     "sass:compile": "sass ./sass/style.scss ./css/style.css --watch"
 },
 ```
-Save the file.
-Back on the command line enter the following
+* Save the file.
+* Back on the command line enter the following
 
 ```
 npm run sass:compile
 ```
-This should compile your sass code and output a css file. Check this is working.
-Try making a change to your sass code and view the changes in a browser. 
-
-
-
+* This should compile your sass code and output a css file. Check this is working.
+* Try making a change to your sass code and view the changes in a browser. 
 
 ## Learning more
 * https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/
