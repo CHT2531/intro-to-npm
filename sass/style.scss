@@ -1,0 +1,13 @@
+$main-font: Arial, Helvetica, sans-serif;
+$heading-font: Garamond;
+$periwinkle-grey: #AEC0E0;
+$clementine: #E06700;
+
+body {
+  font: 100% $main-font;
+  background-color: $periwinkle-grey;
+}
+h1{
+  font-family:$heading-font;
+  color:$clementine;
+}
