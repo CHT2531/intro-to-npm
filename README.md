@@ -11,7 +11,7 @@ This simple application uses the Luxon library (https://moment.github.io/luxon/#
 At the moment the Luxon library has been loaded by linking to a *luxon.js* file from a Content delivery Network (CDN), have a look in the HTML page i.e.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/luxon@2.1.1/build/global/luxon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/luxon@3.1.0/build/global/luxon.min.js"></script>
 ```
 We did exactly the same thing when we used the Leaflet library for the map application a couple of weeks ago.
 
