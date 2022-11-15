@@ -88,7 +88,7 @@ A module bundler is a tool that can solve these problems for us. Essentially a m
 We will use a module bundler known as rollup.js (https://rollupjs.org/guide/en/). Back in the command prompt, enter the following:-
 
 ```
-npm install --global rollup
+npm install --global rollup@2.56.3
 ```
 Next we need to tell rollup that we want to create a single JavaScript file for our entire app. Enter the following into the Command Prompt
 
