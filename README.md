@@ -110,7 +110,7 @@ In addition to simply keeping track of the libraries we are using, it is also co
 ```
 npm install sass --save-dev
 ```
-Have a look in *package.json*. See how sass has been added under *devDependencies* (development dependencies). A development dependency is a package that is needed during development, but for for the final publiched website. We use the flag ```--save-dev``` to indicate this is a dev dependency. 
+Have a look in *package.json*. See how sass has been added under *devDependencies* (development dependencies). A development dependency is a package that is needed during development, but for the final publiched website. We use the flag ```--save-dev``` to indicate this is a dev dependency. 
 
 ## Creating an NPM command
 Next, we'll set up a command in the *package.json* file that will compile our Sass code for us. Open *package.json* and change the scripts part of the file to the following:
