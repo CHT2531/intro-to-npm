@@ -126,7 +126,8 @@ Next, we'll set up a command in the *package.json* file that will compile our Sa
 ```
 npm run sass:compile
 ```
-* This should compile your sass code and output a css file. Check this is working.
+* This should compile your sass code and output a css file.
+* Uncomment the link to the CSS in the HTML file to check this is working.
 * Try making a change to your sass code and view the changes in a browser. 
 
 ## Learning more
